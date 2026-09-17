@@ -1,0 +1,19 @@
+{
+  "name": "iran-news-aggregator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "News aggregation backend for the live news feed",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "rss-parser": "^3.13.0"
+  }
+}
